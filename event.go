@@ -47,7 +47,7 @@ func (ev *Event) Allow() error {
 		}
 		return syscall.EpollCtl(ev.server.epoll.asInt(), syscall.EPOLL_CTL_MOD, ev.conn.fd.asInt(), event)
 	}
-	panic(fmt.Errorf(`tcplite: can not call Allow() on "%s"`, ev.String()))
+	return fmt.Errorf(`tcplite: can not call Allow() on "%s"`, ev.String())
 }
 func (ev *Event) String() string {
 	switch ev.kind {
