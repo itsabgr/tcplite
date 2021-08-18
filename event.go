@@ -1,4 +1,4 @@
-package fasttcp
+package tcplite
 
 import (
 	"fmt"
