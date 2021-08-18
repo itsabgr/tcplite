@@ -1,5 +1,5 @@
 # tcplite
-lite and fast tcp server for linux in Go
+lite and fast TCP server for Linux in Go
 
 [![GitHub](https://img.shields.io/github/license/itsabgr/tcplite)](https://github.com/itsabgr/tcplite/blob/master/LICENSE)
 [![Go Reference](https://pkg.go.dev/badge/github.com/itsabgr/tcplite.svg)](https://pkg.go.dev/github.com/itsabgr/tcplite)
